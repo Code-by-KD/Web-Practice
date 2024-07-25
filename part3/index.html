@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img height="230" src="Train-Image.jpg" alt="Train-Image">
+<br>
+    <table>
+        <caption>Employees Details</caption>
+        
+        <thead>
+            <tr>
+                <th>Name</th>       <!-- Table Heading "th" -->
+                <th>Degistration</th>
+                <th>Fav Language</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Kunal</td>      <!-- Table Data "td" -->
+            <td>Programmer</td>
+            <td>JavaScript</t>
+        </tr>
+        <tr>
+            <td colspan="2">Ayush</td>      <!-- colspan="2" means columns used -->      
+            <!-- <td>Programmer</td> -->    <!-- rowspan="2" means rows used -->
+            <td rowspan="2">Java</t>
+        <tr>
+            <td colspan="2">Ayush</td>      <!-- colspan="2" means columns used -->      
+            <!-- <td>Programmer</td> -->    <!-- rowspan="2" means rows used -->
+            <!-- <td rowspan="2">Java</t> -->
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2">Ayush</td>
+                <td rowspan="2">foot</td>
+            </tr>
+        </foot>
+    </table>
+
+
 </body>
 </html>
