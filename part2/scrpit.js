@@ -1,1 +1,1 @@
-alert(b"Alert !!! You are using not a Legal Page!!! ")
+alert("Alert !!! You are using not a Legal Page!!! ")
