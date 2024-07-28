@@ -1,0 +1,15 @@
+body{
+    background-color: cornsilk;
+}
+#username{
+    text-transform:lowercase ;
+}
+#fname{
+    text-transform: capitalize;
+}
+#lname{
+    text-transform: capitalize;
+}
+#city{
+    text-transform: capitalize;
+}
